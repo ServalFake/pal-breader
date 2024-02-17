@@ -1,0 +1,93 @@
+body{
+    background-color: #89CFF0;
+}
+#title{
+position: absolute;
+ top: 50%;
+ left: 50%;
+transform: translate(-50%, -50%);
+z-index: 1;
+}
+nav{
+    border-radius: 15px;
+    width: 500px;
+    height: 350px;
+    background-color: black;
+    position: absolute;
+ top: 70%;
+ left: 50%;
+transform: translate(-50%, -50%);
+color: white;
+text-align: center;
+}
+#breed {
+    display: inline;
+    text-align: center;
+    justify-content: center;
+    margin-left: 200px;
+    display: flex;
+    margin: 20px;
+    padding-left: 20px;
+}
+#breed h1{
+    text-align: center;
+    height: 50px;
+    width: 200px;
+    position: absolute;
+}
+#parent-breed1{
+    top: 70px;
+    margin-top: 20px;
+    align-items: center;
+    position: relative;
+    background-color: white;
+    right: 30px;
+    height: 200px;
+    width: 150px;
+    border-radius: 15px;
+    margin-left: 20px;
+}
+#parent-breed2{
+    top: 90px;
+    align-items: center;
+    position: relative;
+    background-color: white;
+
+    height: 200px;
+    width: 150px;
+    border-radius: 15px;
+    margin-left: 20px;
+
+}
+
+@media screen and (max-width: 1000px){
+    nav{
+        height: 500px;
+        position: relative;
+        top: 1000px;
+        height: 1800px;
+        width: 100%;
+    }
+    #breed{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+       transform: translate(-50%, -50%);
+       height: 1800px;
+       width: 1200px;
+    }
+    #title{
+        position: relative;
+        text-align: center;
+        font-size: 40px;
+    }
+    #breed h1{
+        font-size: 50px;
+        width: 200px;
+    }
+    #parent-breed1{
+        margin-top: 600px;
+        position: relative;
+        height: 500px;
+    }
+}
